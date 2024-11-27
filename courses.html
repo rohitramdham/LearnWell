@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+</head>
+<style>
+    body {
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    .nav {
+        background-color: rgb(52, 55, 52);
+        padding: 20px;
+        color: white;
+        background-image: url(https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703289600&semt=ais);
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: 1550px 400px;
+
+    }
+
+    .info section {
+        text-align: center;
+    }
+
+    .info {
+        background-color: beige;
+    }
+
+    .container2 {
+        text-align: center;
+        background-color: rgb(203, 199, 195);
+
+
+    }
+
+
+    .col-xl-3 {
+        align-items: center;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+        padding: 25px;
+
+    }
+
+    .text-center1 {
+        float: left;
+        width: 270px;
+        height: 170px;
+        padding: 20px;
+        box-shadow: 4px 6px 8px rgb(0, 0, 0, 0.1);
+        background-color: white;
+
+    }
+
+    .text-center1:hover {
+        box-shadow: 4px 6px 8px rgb(0, 0, 0, 0.4);
+
+    }
+
+    element.style {
+        height: auto !important;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+
+
+    .course-info__details {
+        display: flex;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.15px;
+        color: black;
+    }
+
+    .course-info__details {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.43;
+        letter-spacing: 0.35px;
+        color: rgba(0, 0, 0, 0.87);
+        padding: 0.5rem 0;
+    }
+
+    .detail-item {
+        display: flex;
+    }
+
+    .courses {
+        align-items: center;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+        padding: 25px;
+
+    }
+
+    .text-center2 {
+        float: left;
+        width: 450px;
+        height: 330px;
+        padding: 20px;
+        box-shadow: 4px 6px 8px rgb(0, 0, 0, 0.1);
+        background-color: rgb(154, 160, 164);
+
+    }
+
+
+
+    .text-center2:hover {
+        box-shadow: 4px 6px 8px rgb(0, 0, 0, 0.4);
+
+    }
+
+    element.style {
+        height: auto !important;
+    }
+
+    .container1 {
+        text-align: center;
+
+
+    }
+
+
+    .bg-light {
+        background-color: #f8f9fa !important;
+    }
+
+    .col {
+        align-items: center;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+        padding: 25px;
+
+
+    }
+
+    .shadow-sm {
+        float: left;
+        width: 300px;
+        height: 370px;
+        padding: 5px;
+        box-shadow: 4px 6px 8px rgb(0, 0, 0, 0.1);
+        background-color: white;
+
+    }
+
+    .start {
+        text-align: left;
+        margin-right: 50px;
+        margin-top: 100px;
+
+    }
+</style>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="start">
+                <h1>Courses</h1>
+                <i style="font-size: large;">Unlock Your Potential: Explore Courses</i>
+            </div>
+        </div>
+        <br>
+        
+        <div class="container2">
+            <h2>Browse by Subject Area</h2>
+            <div class="row">
+                <div class="col-xl-3">
+                    <a href="#datascience">
+                        <div class="text-center1">
+                            <div style="margin-bottom:20px" class="text-center"><img
+                                    src="https://www.vhv.rs/dpng/d/13-139580_data-science-icon-png-transparent-png.png"
+                                    height="70px" width="70px"></div>
+                            <h3 style="font-size:20px;" class="text-center"> Data Science</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-3">
+                    <a href="#webdevlopment">
+                        <div class="text-center1">
+                            <div style="margin-bottom:20px" class="text-center"><img
+                                    src="https://www.mindluster.com/landingImages/icons/395-google3.png" height="70px"
+                                    width="70px"></div>
+                            <h3 style="font-size:20px;" class="text-center"> Web Development</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3">
+                    <a href="#ai">
+                        <div class="text-center1">
+                            <div style="margin-bottom:20px" class="text-center"><img
+                                    src="https://cdn-icons-png.flaticon.com/512/4616/4616809.png" height="70px"
+                                    width="70px"></div>
+                            <h3 style="font-size:20px;" class="text-center"> Artificial Intelligence</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3">
+                    <a href="#ml">
+                        <div class="text-center1">
+                            <div style="margin-bottom:20px" class="text-center"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Hey_Machine_Learning_Logo.png"
+                                    height="70px" width="70px"></div>
+                            <h3 style="font-size:20px;" class="text-center"> Machine Learning</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3">
+                    <a href="#cs">
+                        <div class="text-center1">
+                            <div style="margin-bottom:20px" class="text-center"><img
+                                    src="https://i.pinimg.com/736x/cf/a7/4e/cfa74e8f3d9a8f8a6bdd8d9d655d32aa.jpg"
+                                    height="70px" width="70px"></div>
+                            <h3 style="font-size:20px;" class="text-center"> Cyber Security</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3">
+                    <a href="#programming">
+                        <div class="text-center1">
+                            <div style="margin-bottom:20px" class="text-center"><img
+                                    src="https://images.vexels.com/media/users/3/224169/isolated/preview/dbfe1f493ad01117fa4ec5ba10150e4d-computer-programming-logo.png"
+                                    height="70px" width="70px"></div>
+                            <h3 style="font-size:20px;" class="text-center"> Programming</h3>
+                        </div>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!---Data science course-->
+        <br>
+        <div class="container1" id="datascience">
+
+            <h1>Data Science Courses</h1>
+            <h3>Immerse yourself in the realm of data science with courses selected from leading providers, focusing on
+                data analysis, visualization, and machine learning applications.</h3>
+
+
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-data-science">
+                                <div class="card shadow-sm">
+                                    <img src="https://assets.isu.pub/document-structure/230610095304-44b2e9bc1109c9c48bbc6ae77f3c995a/v1/5953debf9c67fe69c432e12630fdad4f.jpeg"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center"> Introduction to Data Science
+                                        </h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.48 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">57.8K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a href="https://www.coursera.org/professional-certificates/ibm-data-science">
+                                <div class="card shadow-sm">
+                                    <img src="data:image/png;base64,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"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center"> IBM Data Science professional
+                                            certificates</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.48 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">57.8K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/data-science-foundations">
+                                <div class="card shadow-sm">
+                                    <img src="data:image/jpeg;base64,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"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center"> Data Science Foundations</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.48 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">57.8K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/python-for-data-science3">
+                                <div class="card shadow-sm">
+                                    <img src="https://daxg39y63pxwu.cloudfront.net/images/blog/python-for-data-science/Python_for_Data_Science.png"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Python For Data Science</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.48 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">57.8K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/sql-for-data-science">
+                                <div class="card shadow-sm">
+                                    <img src="https://www.fita.in/wp-content/uploads/2020/10/sql-for-data-science.jpg"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">SQL for Data Science</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.48 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">57.8K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!--web development-->
+        <div class="container1" id="webdevlopment">
+
+            <h1>Web Development</h1>
+            <h3>Access cutting-edge web technology courses curated from renowned platforms known for their expertise in
+                coding, design, and development.</h3>
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-web-development">
+                                <div class="card shadow-sm">
+                                    <img src="https://media.licdn.com/dms/image/D4D12AQFJU40WzpBGRg/article-cover_image-shrink_600_2000/0/1694755230423?e=2147483647&v=beta&t=slO5xIePDwdeailhpM6_TvAYvJeauc077c-tXboqn2o"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Introduction to Web Development
+                                        </h4>
+                                        </p>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.46 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">3.8K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.coursera.org/learn/html-css-javascript-for-web-developers?irclickid=SfSwkDRfkxyPU5oX-9Vr7WYXUkH052VoxTIpW40&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c">
+                                <div class="card shadow-sm">
+                                    <img src="https://fiverr-res.cloudinary.com/image/upload/w_880/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">HTML, CSS, and Javascript for
+                                            Web Developers</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.7 ★</div>
+                                                </div>
+                                                <!--<div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">1047.1K+ Learners</div>-->
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-javascript">
+                                <div class="card shadow-sm">
+                                    <img src="https://media.istockphoto.com/id/1284271878/photo/javascript-inscription-against-laptop-and-code-background-learn-javascript-programming.jpg?s=612x612&w=0&k=20&c=H9FI5X3ZBQIyEijvhJc-jv5McwCh-BxqQPxee9Aoa08="
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Introduction to JavaScript</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.46 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">76.2K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/react-js-tutorial">
+                                <div class="card shadow-sm">
+                                    <img src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg" height="170px"
+                                        width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">React JS Tutorial</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.51 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">44.5K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/php">
+                                <div class="card shadow-sm">
+                                    <img src="https://www.thedroptimes.com/sites/thedroptimes.com/files/2023-04/php.jpg"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">PHP for Beginners</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.54 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">31.7K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!--Artificial Intelligence-->
+        <div class="container1" id="ai">
+            <h1>Artificial Intelligence</h1>
+            <h3>Explore the world of AI through expert-led courses sourced from established educational providers,
+                offering insights into AI algorithms and applications.</h3>
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-artificial-intelligence-1">
+                                <div class="card shadow-sm">
+                                    <img src="https://miro.medium.com/v2/resize:fit:900/1*57YDg0EsnSBYsTnwYPkSDg.jpeg"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Introduction to Artificial
+                                            Intelligence</h4>
+                                        </p>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.48 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">57.8K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/applications-of-ai">
+                                <div class="card shadow-sm">
+                                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230606132338/Artificial-Intelligence-Applications.webp"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center"> Applications of AI</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.48 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">57.8K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-deep-learning">
+                                <div class="card shadow-sm">
+                                    <img src="https://iaarhub.github.io/images/Inteligencia-Artificial-Deep-Learning.jpg"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Introduction to Deep Learning
+                                        </h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.48 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">57.8K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-neural-networks-and-deep-learning">
+                                <div class="card shadow-sm">
+                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQOo4kHRZJ8iEExyquLENV4cs_xJFY4BTLUH5yju8i3sVSMGdkMhRXCWMueE2_xCHadLVTR2KyY_Fc9-8V5nzvbWcTeBdtH5mg-mnJKr15kKKmxRJ6vtaeMRHy9QaNhduBRQXDml_k432yzxA1XtXeMr4fS_MApH3lHlBL83p-eLNQWOn2cdVrVcVPCQ/w0/DL%20and%20NN%20intro.png"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Introduction to Neural Networks
+                                            and Deep Learning</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.48 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">57.8K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/tensorflow-python">
+                                <div class="card shadow-sm">
+                                    <img src="https://editor.analyticsvidhya.com/uploads/15813maxresdefault.jpg"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">TensorFlow Python</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.48 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">57.8K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!--ml-->
+        <div class="container1" id="ml">
+            <h1>Machine Learning</h1>
+            <h3>Dive deep into machine learning concepts with courses sourced from respected platforms, covering data
+                analysis, pattern recognition, and predictive modeling.</h3>
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-machine-learning1">
+                                <div class="card shadow-sm">
+                                    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Deep-Learning-vs-Machine-Learning.jpg"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Introduction to Machine Learning
+                                        </h4>
+                                        </p>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.46 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">16.2K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/preparing-data-for-machine-learning">
+                                <div class="card shadow-sm">
+                                    <img src="https://ischoolonline.berkeley.edu/wp-content/uploads/sites/37/2021/01/4430_whatismachinelearning_hero.jpg?w=768"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Preparing Data For Machine
+                                            Learning</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.7 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">1.5K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Beginner</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.mygreatlearning.com/academy/learn-for-free/courses/data-visualization-using-python">
+                                <div class="card shadow-sm">
+                                    <img src="https://iaarhub.github.io/images/Inteligencia-Artificial-Deep-Learning.jpg"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Data Visualization using Python
+                                        </h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.61 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">62.6K+ Learners</div>
+                                                <div class="detail-item">
+                                                    <div class="course-info__icon-container">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<img
+                                                            class="course-info__icon course-level"
+                                                            src="https://d1vwxdpzbgdqj.cloudfront.net/enterprise/icons/beginner.svg"
+                                                            alt="beginner">
+                                                    </div>
+                                                    <div class="course-info__level">Intermediate</div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.coursera.org/learn/ml-regression?irclickid=SfSwkDRfkxyPU5oX-9Vr7WYXUkH05fT5OwZ3UY0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c">
+                                <div class="card shadow-sm">
+                                    <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1312209/retina_1708x683_cover-0323-MachineLearning_Dan_Newsletter-b21703f41d807514083e297955e1b46d.png"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Machine Learning: Regression
+                                        </h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="course-info__details  ">
+                                                <div class="detail-item">
+                                                    <div class="course-info__course-rating">4.8 ★</div>
+                                                </div>
+                                                <div class="course-info__icon-container">
+                                                    &nbsp;&nbsp;<img class="course-info__icon"
+                                                        src="https://d1vwxdpzbgdqj.cloudfront.net/corporate-pass/icons/learner_icon_black.webp"
+                                                        alt="learner icon">
+                                                </div>
+                                                <div class="course-info__learner-count">157.9K+ Learners</div>
+
+
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--cs-->
+        <div class="container1" id="cs">
+            <h1>Cyber Security</h1>
+            <h3>Enhance your cybersecurity skills with courses handpicked from reputable platforms, providing
+                comprehensive knowledge in protecting digital systems and networks.</h3>
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <a
+                                href="https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview?active-tab=description-tab">
+                                <div class="card shadow-sm">
+                                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIRERISEhEYEhgSGBISEhISEhEREhESGBgZGhgYGBgcIS4lHB4rIRkYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjErIysxNDQxPTQ0PTQ0NDQ0NDQ0MTQ0NDQxNDQ0NDQ0MTE0NDQ0NDQ0NDQ0MTQ0NDQ0MTQ0NP/AABEIAKgBKwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIDBAUGB//EAEUQAAICAQMCAwUECAEICwAAAAECABEDBBIhMUEFUWEGInGBkRMyUqEHFEJikrHB0YIjVHKDk6Ky8BYkM0RFU2PC0tPh/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QAKhEBAQACAgIBAQYHAAAAAAAAAAECEQMhMUESIgQycYGRoRMjUWGxwfH/2gAMAwEAAhEDEQA/APKKhUdUKnVyJUKjgI4CAyotR9RahEdRaj6hUoZUWo+oVAZUKj6hUBlQqSVEqAyoVH1CoDKiVJKiQGVEqPuFGRTKipjJ6fXtHFZJ9gBzXJ7yCPbXTnzP9p7z+j7L9poMBu6XYfipK/0nhQSej+xnjuTB4fkx4k3ZPtdmPiwiuu4sR6ENQ8zJYrvfaDxjR6Rf+s5FBYcYwpd3Hog5I9ek8w8Q9pdCcl4tNkVSeQ32Qr1UbunoZT9oPCNRicanIzZPtT/lGckur9rJ7fkJWxIhX31r97qPmJucOOc7Z/jZYXcdl4D7VaZCdmC0IDPkVlOdB33of2Qfwmdg+rx5cS5MbjIjiwy8gj+h9J4z4B4cdXrseIFlQG8jpyUx0br49PnO+1Xh+TwrBlbCN+EIxdHbkNVBwfPpfnM3HHHqEyyy7ry7xfJ9tqM+Ts7uR8LofkBMpl2naT8JohCBXX+8iI5hqKhQxtS6ouBxiBRqEttgHwkTYfWBBCOZaiQGwiwhVqotR1QqaYJUWo6oVASotRai1CG1Co6otQG1Co6oVAbUKjqhUBtQqOqFQG1Co6oVAYRFVOLg/SSYORXnJVgGKOOOOxm5NthVbZFROPhxJtsTow/e4+faED6VwgybTsJKBuxYckTu/wBFRBzZ0P7WNGAs0drEHjofvCcJlJqr4612udT+jrU7PEMH/qLkxH5ruH5oJKR6n7QaTGdPkLqCqo7mxxQUkzyLwzw45FCV92w7HmzZoD618p617ZZNug1FGi6fZrXJ3OQgA9fenEnQt4fp0ZxbvziVhwW7u454Hl3NdrnXi6lrny+dNf2A8JXTpnxumzNjyH7RTRYIw3Yz8Cp/nJv0lZvs/D3W+cr48Y9Ru3N+SmYv6OWyDXag5GLfbJvd2JYsyuOSfP3zLP6UPESrYcChWDLkyOWUEjkKhHkfv8znlPqbxv0vLysXHhDGi6pYNM11ddJZz40ATY5YlbcFduxr6Dz+MoZXt6/D/MwoJA4EYIRwEikqROb4+Z+AkzdJWY8Mf8I/rCqztbQjCeZIYhTYRYlQLwEAIoEUCaYJUWotRagJUWosJQlQqLFgJCLUICQqLCAlQiwgJCLCBE/UCSYxIm+9LOMTKm9HI+Y+ctLINfgfG6B1KGqIYEGjyDJMJuBJUY2BnpUFntXnLmr0xxvsLKxpTaMGXkX1EsaRAuHJkPmqepBskf7o+Xxl0luogXRoVtsg9dvvAHyvgH5Ey/4A+PFnx5Fcscbq/I29Dz3MwVzksUPTqoHAHmBLejBVrlx7umMr8cbbXqnt34hX6vjDUNxzZCKvan3QPUk8eoEwtVp/EtfTvp2ofcBUYwF7Bd1WK7zo/CtNvXBqGRWzZcafZDILx6fEgG7KRfPLWObO5eR7xF3TePIAwQtqNpJbK7KgY8fcCr93y4Hzu51x66k28meW7vK6l8acd7NaXLpNcpzI+PemRBvUqG+6fdJ4P3e0y/bHWtl1mVxYVNuFG52nYPe/3i09Q8O8UwaxXQDlfvY3A3DtuFdR6jkenE8z9sPDMmlzHEXZ0YnLjLeTk3f71gg/I95mzdvWq1hn8ZO9y3y5rIwo7gAeisOAWPQH+8yUQr169/jND72QA/cx+859f7/3lfUCyWHIYmc69eN70hEWoqoTB+JltFmyUpld1O1V9LPxPMM73Q8yB9TLOVQIVQyLQiiGU3BOgiFJCOMSVF6AixZpkQhFgEIsICRYQgEIQgEIQgEIQgEIRGNCBF3ljGOkr4xLCGZUeJ5GddzksRXJJJocfyhp34keuf3COv8ASM0TWo+UHpo3NPRjfjOMftWK8n4Kn50V+czEF0POXMT/AGbquMjdYUsTS2TXwr4zUZy7ZOdCpvupmrpU3UR35l/XYkyFnKDeh25fs2Fbr++OoIPp3+InUfo+8E02dc5yIX2HHtDMybd2+/utz0HWbwkn1V5ufK5T4zzXZePt9noMgUcBUShx7hZUI/hJE4LCWFKje4eS3mfXyPpPUcuFHUo6K6mrVgGU0bFg9eQPpKmXT6TEBvXBjDGhuXDjDHyF9TN4ZzHrTjy8NuUy34mnFeCNs12n2Gt+5SB3Qq3LfH+ly7+krGpTTseoOUCu9hOPynXJocIYOMKBhyHCIGHzA4jPEvCsGqCrnTeFJK+861dXRUjyElzlylMeHKYXHc7u3gGpIqgKHXr1PmfMypjyUaI4PWavi2AJlyKvAV3AHWgGIEoB16OLHmKBnLKayeviy3hFvwpVXJWQivOhyO0peNum87DY7cVJNdi240dWJBJAPAPY0fXn8xMbM5PUyZXXTrj32ZiJZ1+Nn5TQzL+0x+Amfp2BccVQom+sualx0/5Ew3VQruJPaJj6GXtHgVv+0OxfMytlVVchTY7GU2YYkUwlRdixI6aZEWEIBCEIBCEdAbHQhAbCOhAbCOjYBGZelR8jyHmSkJdSRMw6EQxIpVyz7SACq0TvN9L7SJnAFngfm3oJGi6ooEJvr0HrGaPP/kwm0cMW3V73lV+Uquxc2eB2HkJd8H0hyttHrE7peou6fLTKfIgyxkwHew7db/d7H6VKup05QlT1E19SEOLGmMktsDtuABbraj4USPQnyE1Ixaj8MXJ9p/kwWPNirBHcEdxPTf0eIgXUlOLOK0PVGG+xfcTzDwjxF9O+5OtEcjtPSv0bZS66pj1ZsRP+/Nz7tebln83H83bzhP0gADLhO+yUI+z7KAxpvmSR/gneTjPbDwrPn1CvjxM6jGq7lqtwZzXXyI+svFqZduX2qW8dkm3TeDqBpsAVtwGNKeq3DaO3b4S6vWUPA8LJpcCOpVkRQynqD5S+OomL5rvj92PDPGlxnNltip35O1j7xmdgTGGFsrlTuClSQ1diDVyz46f8vl/08n/EZmYcBBGRzsUG77sR2Ud5rPyzwTXH5Lr8wOA8bQX90etHcfzX8plNhQ4y+7kfsy543l3OKG1doKqOgBF/zJmM54nPK9vVxz6djSn35rpiXrV+ZmPhrdx6dZtYdSyqyKaV63DjmukxG8lLWuSdolG6Mv6kVZlC4qxYBsXCNxHio6aZq9FESKJpksIQgEIQgOhCLASEWEBIRYkAhCEAlV2syw5oGVUHeSrEi88noOsrZcylrPNdB2EkdN5C7goHUdyZHm0gSiOR37zLXRj5r4HEl8N1bYzamusqM47R+Mg3Qrk8XcSlnTWfUlzZl/TuHVV3bHx/cJO0MLur7EEnn19BeRiMsKZrbFjWfTs5+7scdUqt/qo8/T6eQ3/ZX2jfQ71+zDjJsJ3Mykbd1UR/peU5XT6/IlANY/C1Mv0PE3NL4kmQgZMa7vxgEX8QCL+P850xs8PLzY5a3PT0DD7cgi205HquUN/NRJf+nOD/AMrIPhsP9ZzmOgl/ZqR2ILEfzlHU6mqpFHX9m/5zrMMb6eLLk5cfe/yd1i9rEyD3MLk+TMqX8+ZU1ntblTn9WVPItlLfkqgzm8Wpc96+HEzNfrsmNwVc/wAx9IuOM9NY5c19/sytfq0Du4TezMzEsKUEkngfPvMPIcmd+bP5AD+gmnrvEGVmBVDyeqJ/aZWp1+RgRe0HqFAUH5CcMst17+HCzHqIPEsgL0psIoW/Oup/nM3IZO3eV8k527enGamkmiC7jvuqNbau+0uDLUoYWoH4ydFLf1J6CSLfKbU5AycfCVsWnZugugSa8h1MbncdBzXU+ZjUyEd6g10nXrFkQfkSWVF6LEiibYLCEIBCEIDosSLAIQhAIQhASEIQIdS4C8yrkVuLOwHoByfrJtSLYDy5iYkPU9Ow85mtTwq7F77iPxKQfqO0kUY+zv8AUCWBjY/devQoCPyg+nJFMqt6qCrCRdq7op8z8Qt/USJFo8RuUMvuk8efSx/SPRT39DIq1ilhZXwywpmmKkXrNHRjkTPxzS0ItgB1JAHxmsfLly/dddoXITiRazbwWWuvI4k2mGwURRHBHrIPE9TarSA89SCe3A9L5nqxfN5J0t4sSdVawK5qpk+MFE5+8e3lc1NIBvojaO4u69Jj+0rge6tUCSDXJ+cmTeEctmyId+8Ekj3KI4b19JnOZYzmV2M8uT6eHhE8rPLLys9TFdIXGAPvc+Sjqfj5R+TMTx9390cmNVmYAA/OWMOkPfj1INwtMGhJ6OPpF/UK6tfwEtrp1He/jInwAdGK/Akj6GNJtR1GPaeOh6SVMvAjc9/db/C3YxiDgSK1hFjbizq5HRY24twFhEiwCOjYQHRYyOgLEhCAQhGwKuU2T8akqOW6cD86kq6feaugOvrFzJtJC0AKF+ky0fo9M+bImHCu93NCzQHclieAAOZ1Ley2PTqG1eVnJPGPSqoqqu3cc8nsoj/0XafG+fOrEB9mM47IBKbzvon12X8p6S2BNOSDlXGzUU3uoL+Yq7nnz5bjlrXT0Y8Pz4/pur69uC06+H4P/DcmS+r5MSZ2r4vdfICZmv8AA9Lq8m/BizaPj30OLH9mSO6hnXb8Bx6Dm/Sk8SYgmn455FWPMA0frzI8XjO8kLvsefH9ZceTDe/9ueXFz6+Nv7PNsfsYn+cOP9Xh/pklhfY7H/nLf7PH/wDOekvlyEWL/ilL9ay+v8U745Y5eHlywzx82/o4hPZHGP8AvLf7PH/9klT2aRDYzk/6tB/752X2+X1/iH94pzOeoP8AGP7zc6c8plZ5v6Ofx6QKtbyfXaP7yvm8OVv2yPkP7zpS5/Cf4xGnIPwn+NZ0mThlw2+2Hj0qr+0fov8AeUtf4OuXrkK/4VP9Z1DZR+E/xiRNl8gf4xFyWcdntx2o9lcbhb1BG0bRtxLz8aPJlZvY3H/nL/7L/wDZ2z5X7Gv8YjBlfu1fFx/ecrp3x+f9a5nwn2c0mB97o2rbnarqoxj12FaY9epr0uamt12m4GTwsNt4W9PjcKPT3Jv5dSmP3Xej5ck/lJEyhhY3fMFf5zzZZcdvf+Xsx4/tEnV6/Bz2n8R07+6PDggA76bGAO34JW1a6PUqVOibEx91cqoMLKboEAABq9bE6PWahcY3O4HkNwsmZninjeMrjXT59zORvUK6ug77iRQHTp17ecz8uKdyd/is4vtWXXy1P7x5brEKMynk42ZG4q6JBP5SIkEcduZZ1+N0y5MeU2+5tzce+W53fO7+cx9xViAenE779s6s6S6ggrz8vSVtrR7HiLu9YGgDFBjAYoM25n3FuMuLcB9wuMuLcofcWMuLcB1xbjLi3AdcS4lwuAtwuNuLcCxpepkWQW9eZH07xMb0fylzDpC+QP8As7Qb/eqq/wCfOZo6H2T8LOTLmbGDaIoQL++138tlfOdjpfZ7VFt2TI3agSWnH+yeqyafWYvs2++WxsvbIrA0p/xBa9QJ6bg1upyKQ+I4743BgD8jYInj5sZcu30fs2dmGprygXwLKBfUnpcydR4Y+N2bNkTGvXezhb9AOp+E09T4XpEcHUZlDkWFfJuc+oXr+Uc+n0+RCuPE2XyJUot+ZJpvynL4yf8AXf5783f5OT9ofGcOjC07ZnyIzY0UMiAchXctR235A3tPrPMsWJR+yPoJ0Xt59l+ubMThzjRceUqQUXICfcBHB2igfp2M59J7OHGY47918/nzuWWt9RKEX8I+gihB+EfQQURwE7POCoroPoJEgHkPoJO44kGONmoc1eQ+gldlB/ZH0EmeQssm1kiFlX8I+gkbKOwAPY0ODJGkbmRqPc/ZnxDD4jg+34xuGKZEcj3cgCk7T3U7hXxmm2lxm1XKhbsA6E/S5zHskMf6ngy6YhguNceox3tJyKBvDeTWSwPcNfQy34sujch3x5RY5U4w5HzDVPn56ls0+phuyXbJ8d0QGUjLqERR2suw5/Atn8pWGm0WBQwyfbFv2VVrJ+YFfOXNMuiZtq4c/wDpbEVf+OVfHM+l0mF8n2ZYltuNfukuQSAT2FAk9ZmS3qOueUxm7XnvjGuGbNkyBdgY0qXe1QKFnz4/OZZ6mOZr6/P4xvefQk1NPk27ttKfKOqAEJYzVu4oMiuOBm2EoMW5EDFuBJcLjLhcIkuLcjuLugPuLcj3Rd0B+6Fxm6G6A+4XGboboD7mt4XqQRt7j8x5zG3RUcqQQaI6GB0C2HNEg/eUqSGVhyKI5B7/AEnpWk9qz+qaTVZF34nH6vrMqKxyaXUr7u91X7yN16WLB5up5Xi1AyKMgcLkxbmbEaC5UAttrdmABIHpUqP4zqdJlZ9LqHxB9rEKxCOjC13ofdbuOROeWMs7dMMrjent41Ghsuup0/PN42R3J+C2b+Uoe1ntKmk0b5MLAs5+xwnoTkKm3N9Ags9rIA6czyrSe2+udkVnxLZAbINJpA4Hneyvymf4p4nk1WQvlyPk/BvYnYnYKOig1dCuTOePFJduufNlZpWRaoDt8TJV4kG0CPxd/lO7gtoZMDIMcfDJ7dJTQtYCgGztALKtsewsydm4lJ8SNyWYGyGAUMGT0N8N14PHTmKsWi3JBBUglWUiirA0QR5gxjxgrryTybJs/MxC8KicyJzJMhkD95FjU8A9odRoMjPgYAOAuRHUPjyKLrct9rNEEHk88z1z2Y8fweIY33YGxvhC/apjVsic9GSrO00eteXNXPCpYw6h0pkZkZRVozKxQ9rB7f28pjLDHLy648mWPivdtdnw4hvbG+NaFvqGx6XGL9XO4n0VSfITyv238Xw6nKi6Zt2JNxVyrKcjmgWogHsBz2AnLZVYtZJYsfvEk7r72ZJmqwB0VR26A82f4pnHjxxu4ufLllNWo4IO8fS9gfiep9Yk6Ry2IRISomuFwhKhbi7okIC7ou6EIBuhuhCELui7oQgG6G6EJQu6G6EIBuhuhCAjHj+3US14jlTMC4pG20UXhAQ9gAnoKLVflUISVYzhkNVxX4VA/M94oaEJlo9ZYwjr8YkJpmraiOqEIZNYcSqDyYkIWFYRhhCRUbSBusWEixEYBq5BhCGjhkHw9Oq3VWPKPd7LEd/5dh+QhCIUy4XCEqEuFwhA/9k="
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Introduction to cyber security:
+                                            stay safe online</h4>
+                                        </p>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.edx.org/learn/cybersecurity/rochester-institute-of-technology-cybersecurity-fundamentals?irclickid=XhE07wR4sxyPU-jWg-2Zr3sRUkHxVHTwZ06aVo0&utm_source=affiliate&utm_medium=Class%20Central&utm_campaign=Harvard%27s%20Computer%20Science%20for%20Python%20Programming_&utm_content=TEXT_LINK&irgwc=1">
+                                <div class="card shadow-sm">
+                                    <img src="https://vitbhopal.ac.in/file/2022/04/Cyber-Security2.jpg" height="170px"
+                                        width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Cybersecurity Fundamentals</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.udemy.com/course/certified-secure-netizen/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-_awBmoKrmnGRXdylDeqTFA&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads">
+                                <div class="card shadow-sm">
+                                    <img src="https://imageio.forbes.com/specials-images/imageserve/652638c214638780e322c876/The-10-Biggest-Cyber-Security-Trends-In-2024-Everyone-Must-Be-Ready-For-Now/960x0.jpg?format=jpg&width=960"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Cyber Security Course for
+                                            Beginners - Level 01
+                                        </h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.udacity.com/course/intro-to-cybersecurity-nanodegree--nd545?irclickid=VrCwfjWlKxyPUnlRtwxvjwe8UkHxVpUgZ06aVo0&irgwc=1&utm_source=affiliate&utm_medium=&aff=259799&utm_term=&utm_campaign=_gtc_search_&utm_content=&adid=788805">
+                                <div class="card shadow-sm">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcCFzVztAzg4ic_VMN3t8181VAgSPTLbCOuQ&usqp=CAU"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Introduction to Cybersecurity
+                                        </h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1" id="programming">
+            <h1>Programming</h1>
+            <h3>Explore a range of programming courses sourced from top-tier platforms, covering c,
+                Python, Java, and C++. Learn from trusted industry leaders and master coding skills with our
+                curated selection.</h3>
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <a
+                                href="https://www.coursera.org/learn/python-data?irclickid=SfSwkDRfkxyPU5oX-9Vr7WYXUkHxVvUkZ068xs0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=259799&utm_content=b2c">
+                                <div class="card shadow-sm">
+                                    <img src="https://cdn.activestate.com/wp-content/uploads/2021/12/python-coding-mistakes.jpg"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Python Data Structures</h4>
+                                        </p>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.udacity.com/course/java-programming-basics--ud282?irclickid=VrCwfjWlKxyPUnlRtwxvjwe8UkHxVv2oZ068xs0&irgwc=1&utm_source=affiliate&utm_medium=&aff=259799&utm_term=&utm_campaign=_gtc_search_&utm_content=&adid=788805">
+                                <div class="card shadow-sm">
+                                    <img src="https://contentstatic.techgig.com/photo/83117460.cms" height="170px"
+                                        width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">Intro to Java: Functional
+                                            Programming</h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.udemy.com/course/c-programming-2019-master-the-basics/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-brho97_8YGVONK_gef.91w&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads">
+                                <div class="card shadow-sm">
+                                    <img src="https://miro.medium.com/v2/resize:fit:1400/0*tc5hGik294F0OmbC"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">C Programming 2021: Master The
+                                            Basics!
+                                        </h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a
+                                href="https://www.udemy.com/course/free-learn-c-tutorial-beginners/?ranMID=39197&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-YMe_UKHKSExGoUuKHOZH1w&LSNPUBID=SAyYsTvLiGQ&utm_source=aff-campaign&utm_medium=udemyads">
+                                <div class="card shadow-sm">
+                                    <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230703144619/CPP-Language.png"
+                                        height="170px" width="300px">
+
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        <h4 style="font-size:20px;" class="text-center">C++ Tutorial for Complete
+                                            Beginners
+                                        </h4>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    style="background-color: #6ef297;">Enroll</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+</body>
+
+</html>
